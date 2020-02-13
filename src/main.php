@@ -12,5 +12,3 @@ foreach ($files as $k => $check) {
         unset($files[$k]);
     }
 }
-
-return $files;

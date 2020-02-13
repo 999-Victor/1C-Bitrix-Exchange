@@ -1,26 +1,39 @@
-<?require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
+<?require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");?>
 
-$settings = require_once "settings.php";
-require_once("src/main.php");
-?>
-
-<div class="loader hide"></div>
+<div class="exchange-loader"></div>
+<h1>Обмен</h1>
 <div class="exchange">
-    <h1><?=$settings['default']['title']?></h1>
-    <div class="exchange-select">
-        <span class="exchange-select__title">File</span>
-        <select data-submit="exchange" class="exchange-select__files">
-            <option value="" disabled selected hidden></option>
-            <?foreach ($files as $file):?>
-            <option value="<?=$file?>"><?=$file?></option>
-            <?endforeach?>
-        </select>
+    <div class="tabs">
+        <input type="radio" id="main" name="tab" checked>
+        <label for="main" class="tab">
+            Обмен
+        </label>
+        <input type="radio" id="settings" name="tab">
+        <label for="settings" class="tab">
+            Основные настройки
+        </label>
+        <input type="radio" id="security" name="tab">
+        <label for="security" class="tab">
+            Настройки безопасности
+        </label>
     </div>
-    <button class="exchange__btn" data-submit="exchange">Начать обмен</button>
-    <div class="exchange__logs" data-container="exchange"></div>
+    <div class="wrapper">
+        <div class="sections">
+            <section data-section="main">
+                <!-- ajax -->
+            </section>
+            <section data-section="settings">
+                <!-- ajax -->
+            </section>
+            <section data-section="security">
+                <!-- ajax -->
+            </section>
+        </div>
+        <div class="logs">
+            логи
+        </div>
+    </div>
 </div>
 
-
-<link href="src/main.css" rel="stylesheet" />
-<script src="src/main.js"></script>
+<link rel="stylesheet" href="src/main.css">
 <?require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php");
