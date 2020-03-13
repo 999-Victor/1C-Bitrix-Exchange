@@ -1,14 +1,4 @@
 {
-    "default" :
-    {
-        "title"                 : "Manual Exchange",
-        "path_to_xml_directory" : "/upload/1c_catalog",
-        "path_to_exchange_file" : "/bitrix/admin/1c_exchange.php"
-    },
-    "security" :
-    {
-        "admin_only"  : true,
-        "user_object" : "",
-        "redirect"    : ""
-    }
+    "title": "Manual Exchange",
+    "path_to_1c_exchange": "\/bitrix\/admin\/1c_exchange.php"
 }
