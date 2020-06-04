@@ -1,5 +1,5 @@
 <?
-$sSectionName = "https://github.com/999-Victor/1C-Bitrix-Exchange";
+$sSectionName = "https://github.com/vhood/1C-Bitrix-Exchange";
 $arDirProperties = Array(
 
 );
