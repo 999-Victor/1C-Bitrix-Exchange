@@ -1,9 +1,14 @@
+.exchange * {
+    margin: 0;
+    padding: 0;
+}
+
 .exchange {
     margin: 0 auto;
     width: 100%;
     min-height: 600px;
     padding-bottom: 20px;
-    /* font: normal normal normal 13px "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font: normal normal normal 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .exchange-menu {
