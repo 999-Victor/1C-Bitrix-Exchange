@@ -25,6 +25,7 @@ $('form[name="main"]').on("submit", function(e) {
     e.preventDefault();
     if ($(this.file).val() === null) return showError('Отсутствует файл. Загрузиге xml файл в /upload/1c_catalog/ и перезагрузите страницу.');
     $('.exchange-sections__loader').show();
+    $('.exchange-logs__text').html('');
     exchange($(this.file).val(), $(this.params).val());
 });
 
