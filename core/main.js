@@ -70,9 +70,16 @@ $('form[name="settings"]').on("submit", function(e) {
 
 
 //region Настройки отображения
-$('.exchange-menu').on("click", '.exchange-menu__item', e => {
+$('.exchange-menu').on("click keydown", '.exchange-menu__item', e => {
     let activeTab = document.querySelector('.exchange-menu :checked+.exchange-menu__item');
     if (activeTab === e.target) return;
+
+    if (e.type == 'keydown') {
+        if (e.keyCode == '32') { //Пробел
+            e.preventDefault();
+            $(e.target).prev().attr("checked", "true");
+        } else return;
+    }
 
     loadPage();
     $(`[data-section="${$(activeTab).attr('for')}"]`).hide();
