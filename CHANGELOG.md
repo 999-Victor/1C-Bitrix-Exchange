@@ -2,6 +2,14 @@
 
 ***
 
+## [[1.1.0](https://github.com/999-Victor/1C-Bitrix-Exchange/releases/tag/v1.1.0)] - 10.09.2020
+
+>**Change**
+
+- logging logic: clean logs before new exchange
+
+***
+
 ## [[1.0.1](https://github.com/999-Victor/1C-Bitrix-Exchange/releases/tag/v1.0.1)] - 10.09.2020
 
 >**Fix**
