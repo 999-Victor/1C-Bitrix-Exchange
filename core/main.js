@@ -78,14 +78,15 @@ $('.exchange-menu').on("click", '.exchange-menu__item', e => {
     $(`[data-section="${$(activeTab).attr('for')}"]`).hide();
     $(`[data-section="${$(e.target).attr('for')}"]`).show();
 });
+//endregion
+
 
 function showError(error) {
     $('.exchange-errors').append(`
         <div class="exchange-error">
-            <div class="exchange-error__title">Ошибка:</div><div class="exchange-error__text">${error}</div>
-            <div class="exchange-error__close">x</div>
+            <span class="exchange-error__title">Ошибка:</span><span class="exchange-error__text">${error}</span>
+            <button aria-label="Закрыть" class="exchange-error__close">x</button>
         </div>
     `);
     $('.exchange-error__close').off("click").on("click", function() { $(this).parent().remove(); });
 }
-//endregion
