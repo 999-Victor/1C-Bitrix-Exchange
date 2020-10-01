@@ -1,6 +1,6 @@
 # Обмен 1С с битрикс сайтом на стороне сайта
 
-[![VERSION](https://img.shields.io/badge/version-1.1.0-blue?style=for-the-badge&logo=appveyor)](https://github.com/vhood/1C-Bitrix-Exchange)
+[![VERSION](https://img.shields.io/badge/version-1.1.1-blue?style=for-the-badge&logo=appveyor)](https://github.com/vhood/1C-Bitrix-Exchange)
 [![LICENSE](https://img.shields.io/github/license/vhood/1C-Bitrix-Exchange?style=for-the-badge&logo=appveyor&color=blue)](LICENSE.md)
 
 > Note: this is a web page for data exchange between the "1C" program and the "1C:Bitrix" CMS, which are popular in Russia.
@@ -22,10 +22,10 @@
     - [Установите git](https://git-scm.com/download/linux) на сервер с сайтом, если он не установлен
     - Перейдите в публичную директорию сайта (`cd /home/bitrix/www`)
     - Создайте папку для страницы обмена (например, `mkdir exchage`)
-    - Скопируйте проект с репозитория в эту папку `git clone https://github.com/999-Victor/1C-Bitrix-Exchange exchange/`
+    - Скопируйте проект с репозитория в эту папку `git clone https://github.com/vhood/1C-Bitrix-Exchange exchange/`
 
 2. **Скачать вручную**
-    - Скачайте последний релиз [из списка](https://github.com/999-Victor/1C-Bitrix-Exchange/releases)
+    - Скачайте последний релиз [из списка](https://github.com/vhood/1C-Bitrix-Exchange/releases)
     - Загрузите его на сайт в отдельную папку в проекте (например, `exchange/`)
 
 Если Вы не меняли логику построения URL, страница станет доступна по адресу вида `domain.com/exchange/`

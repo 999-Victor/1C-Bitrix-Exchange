@@ -2,6 +2,16 @@
 
 ***
 
+## [[1.1.1](https://github.com/999-Victor/1C-Bitrix-Exchange/releases/tag/v1.1.1)] - 01.10.2020
+
+>**Fix**
+
+- README.md
+
+***
+
+***
+
 ## [[1.1.0](https://github.com/999-Victor/1C-Bitrix-Exchange/releases/tag/v1.1.0)] - 10.09.2020
 
 >**Change**
