@@ -1,5 +1,19 @@
 # Release Notes
 
+## [[1.1.2](https://github.com/999-Victor/1C-Bitrix-Exchange/releases/tag/v1.1.2)] - 02.10.2020
+
+>**Add**
+
+- .gitattributes
+
+>**Change**
+
+- security.jpg
+
+>**Fix**
+
+- CHANGELOG.md excess lines
+
 ***
 
 ## [[1.1.1](https://github.com/999-Victor/1C-Bitrix-Exchange/releases/tag/v1.1.1)] - 01.10.2020
@@ -7,8 +21,6 @@
 >**Fix**
 
 - README.md
-
-***
 
 ***
 

@@ -1,6 +1,6 @@
 # Обмен 1С с битрикс сайтом на стороне сайта
 
-[![VERSION](https://img.shields.io/badge/version-1.1.1-blue?style=for-the-badge&logo=appveyor)](https://github.com/vhood/1C-Bitrix-Exchange)
+[![VERSION](https://img.shields.io/badge/version-1.1.2-blue?style=for-the-badge&logo=appveyor)](https://github.com/vhood/1C-Bitrix-Exchange)
 [![LICENSE](https://img.shields.io/github/license/vhood/1C-Bitrix-Exchange?style=for-the-badge&logo=appveyor&color=blue)](LICENSE.md)
 
 > Note: this is a web page for data exchange between the "1C" program and the "1C:Bitrix" CMS, which are popular in Russia.
