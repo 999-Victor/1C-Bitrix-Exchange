@@ -1,5 +1,17 @@
 # Release Notes
 
+## [[1.1.3](https://github.com/999-Victor/1C-Bitrix-Exchange/releases/tag/v1.1.3)] - 02.10.2020
+
+>**Change**
+
+- end of files
+
+>**Fix**
+
+- CHANGELOG.md lint error
+
+***
+
 ## [[1.1.2](https://github.com/999-Victor/1C-Bitrix-Exchange/releases/tag/v1.1.2)] - 02.10.2020
 
 >**Add**
@@ -50,4 +62,4 @@ Initial release
 
 ### Other versions
 
-* [v0.0.1 (30.01.2020)](https://github.com/999-Victor/1C-Bitrix-Exchange/releases/tag/v0.0.1) - Beta version (all logic in index.php)
+- [v0.0.1 (30.01.2020)](https://github.com/999-Victor/1C-Bitrix-Exchange/releases/tag/v0.0.1) - Beta version (all logic in index.php)
